@@ -1,0 +1,57 @@
+/* =====================================================================
+   TROUPE.CSS — styles used ONLY on the individual Troupe pages
+   (Kultura, Himig, Biswal, Dulaan, Panitikan, Rondalla, Brass, Band)
+
+   Shared components (page hero, editor's note, fact cards, feature
+   grid, buttons, section headings) live in style.css and are imported
+   alongside this file on the Troupes page — nothing here duplicates
+   them.
+===================================================================== */
+
+.troupe-reel-section { padding: 60px 0 20px; background: var(--bg); }
+.troupe-reel { position: relative; max-width: 900px; margin: 0 auto; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-lg); padding: 18px; }
+.troupe-reel-viewport { overflow: hidden; border-radius: var(--radius-sm); }
+.troupe-reel-track { display: flex; transition: transform .5s cubic-bezier(.65,0,.35,1); }
+.troupe-reel-slide { flex-shrink: 0; width: 100%; aspect-ratio: 16/9; background: #000; overflow: hidden; }
+.troupe-reel-slide iframe, .troupe-reel-slide img { width: 100%; height: 100%; object-fit: cover; border: none; display: block; }
+.troupe-reel-nav {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 6;
+  width: 42px; height: 42px; border-radius: 50%; background: var(--surface); color: var(--ink);
+  display: grid; place-items: center; box-shadow: var(--shadow-lg); border: 1px solid var(--border);
+  transition: background .25s ease, color .25s ease;
+}
+.troupe-reel-nav:hover { background: var(--gold); color: #221706; }
+.troupe-reel-nav.prev { left: -8px; }
+.troupe-reel-nav.next { right: -8px; }
+.troupe-reel-dots { display: flex; justify-content: center; gap: 8px; margin-top: 16px; }
+.troupe-reel-dots .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border); cursor: pointer; transition: background .25s ease, width .25s ease; }
+.troupe-reel-dots .dot.active { background: var(--gold); width: 22px; border-radius: 4px; }
+@media (max-width: 700px) {
+  .troupe-reel-nav.prev { left: 6px; }
+  .troupe-reel-nav.next { right: 6px; }
+}
+
+/* ---- Journey gallery (documentary photos, no captions needed) ---- */
+.journey-section { padding: 90px 0; background: var(--bg-alt); }
+.journey-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.journey-item { display: block; border-radius: var(--radius-sm); overflow: hidden; box-shadow: var(--shadow); aspect-ratio: 4/3; }
+.journey-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.journey-item:hover img { transform: scale(1.07); }
+@media (max-width: 900px) { .journey-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 540px) { .journey-grid { grid-template-columns: 1fr 1fr; gap: 10px; } }
+
+/* ---- Connect / join CTA ---- */
+.connect-cta { background: var(--primary); color: #fff; padding: 70px 0; }
+.connect-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 30px; }
+.connect-inner h2 { color: #fff; font-size: clamp(1.6rem, 2.6vw, 2.1rem); margin-bottom: .3em; }
+.connect-inner p { color: rgba(255,255,255,.78); margin: 0; max-width: 480px; }
+.connect-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.connect-links a {
+  display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.25); padding: 10px 18px; border-radius: 999px;
+  font-size: .85rem; font-weight: 600; transition: background .25s ease, transform .2s ease;
+}
+.connect-links a:hover { background: var(--gold); color: #221706; border-color: var(--gold); transform: translateY(-2px); }
+.connect-links svg { width: 15px; height: 15px; flex-shrink: 0; }
+.connect-links a.primary { background: var(--gold); color: #221706; border-color: var(--gold); }
+
