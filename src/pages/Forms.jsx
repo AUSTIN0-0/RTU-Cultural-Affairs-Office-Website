@@ -41,7 +41,7 @@ export default function Forms() {
             <p className="eyebrow">Transparency</p>
             <h1>Downloadable forms, in one place.</h1>
             <p className="hero-dek">
-              Every form the Cultural Affairs Unit uses — membership, requests, and clearances — searchable, ready
+              Every form the Cultural Affairs Office uses — membership, requests, and clearances — searchable, ready
               to open and fill out.
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function Forms() {
             <SectionHeading
               center
               eyebrow="C. Forms"
-              title="Cultural Affairs Unit Forms"
+              title="Cultural Affairs Office Forms"
               subtitle="Search to filter, then open the document. Content on this page is a placeholder — replace it with the unit's real forms whenever they're ready."
               id="forms-title"
             />
@@ -61,7 +61,7 @@ export default function Forms() {
               <IconSearch />
               <input
                 type="text"
-                placeholder="Search forms — e.g. “membership”, “request”, “borrowing”…"
+                placeholder="Search forms"
                 aria-label="Search Forms"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
