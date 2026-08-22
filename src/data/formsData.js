@@ -5,7 +5,7 @@
 
 export const formsList = [
 {
-    code: 'RTU-OVPAA-CAO-F001-',
+    code: 'RTU-OVPAA-CAO-F001',
     title: 'APPLICATION FOR TEATRO RIZALIA MEMBERSHIP FORM.pdf',
     url: 'https://drive.google.com/file/d/10Zfiq9qwEznm_DubBbMq6lckhoqKcY4w/view?usp=drive_link',
   },
