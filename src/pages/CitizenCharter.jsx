@@ -51,7 +51,7 @@ export default function CitizenCharter() {
             <SectionHeading
               center
               eyebrow="D. Citizen Charter"
-              title="Cultural Affairs Office Citizen Charter"
+              title="Cultural Affairs Office   Citizen Charter"
               subtitle="Search to filter, then open the document. Content on this page is a placeholder — replace it with the Office's real Citizen Charter documents whenever they're ready."
               id="citizen-charter-title"
             />
