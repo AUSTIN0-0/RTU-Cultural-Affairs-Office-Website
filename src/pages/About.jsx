@@ -27,7 +27,7 @@ export default function About() {
             <h1>Nearly forty years of Rizaliano culture on stage.</h1>
             <p className="hero-dek">
               From a single theater troupe founded in 1986 to eight ensembles carrying Filipino heritage into
-              national and international competition — this is the institutional foundation behind Kultura Rizalia.
+              national and international competition — this is the institutional foundation behind Cultural Affairs Office.
             </p>
           </div>
         </section>
