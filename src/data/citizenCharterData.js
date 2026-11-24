@@ -8,7 +8,7 @@ export const citizenCharterList = [
   {
     code: 'CAO-CC-EXTERNAL-01',
     title: 'Invitational Performance/s And Art Exhibits: Off Campus',
-    url: 'https://docs.google.com/document/d/1ibq6VWsqbTE-yl0IolW8C5qZ0YIks8wi/edit?usp=drive_link&ouid=110587729815313836744&rtpof=true&sd=true',
+    url: 'https://mnwdbybatkhsazeuxgbk.supabase.co/storage/v1/object/public/Citizen%20Chartr/_CAO_CC_EXTERNAL_01.docx.pdf',
   },
   {
     code: 'CAO-CC-INTERNAL-01',
