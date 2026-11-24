@@ -13,11 +13,11 @@ export const citizenCharterList = [
   {
     code: 'CAO-CC-INTERNAL-01',
     title: 'Request For the Usage of Cultural Facilities, Costumes, And Paraphernalia',
-    url: 'https://docs.google.com/document/d/1ibq6VWsqbTE-yl0IolW8C5qZ0YIks8wi/edit?usp=drive_link&ouid=110587729815313836744&rtpof=true&sd=true',
+    url: 'https://mnwdbybatkhsazeuxgbk.supabase.co/storage/v1/object/public/Citizen%20Chartr/_CAO_CC_EXTERNAL_01.docx.pdf',
   },
    {
     code: 'CAO-CC-2025 CITIZEN’S CHARTER HANDBOOK- 2nd EDITION.pdf',
     title: '2025 CITIZEN’S CHARTER HANDBOOK',
-    url: 'https://drive.google.com/file/d/124ixNdAkHhJcJczaSUBV-gZ9iJ3pG0th/view?usp=drive_link',
+    url: 'https://mnwdbybatkhsazeuxgbk.supabase.co/storage/v1/object/public/Citizen%20Chartr/_CAO_CC_EXTERNAL_01.docx.pdf',
   },
 ];
